@@ -12,7 +12,6 @@ from cache import cache
 max_api_wait_time = 3
 max_time = 10
 apis = [r"https://inv.nadeko.net/",r"https://invidious.jing.rocks/feed/popular",r"https://youtube.lurkmore.com"]
-url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
 version = "1.0"
 
 os.system("chmod 777 ./yukiverify")
